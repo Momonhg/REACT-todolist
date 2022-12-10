@@ -8,7 +8,8 @@ A to-do list with a time on the task is set up for users to track how long it ta
 
 ## Future of the project
 
-- Combine with existing todolist to have a MERN stack project.
+- Combine with [Existing todo list](https://github.com/Momonhg/Study-Todolist-JS)
+ to have a MERN stack project 
 
 ## Available Scripts
 
