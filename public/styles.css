@@ -73,6 +73,24 @@ footer p {
 }
 
 
+/*button with icons*/
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 7,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.create-note button{
+  transition: transform .2s; /* Animation */
+}
+
+.create-note button:hover{
+  transform: scale(1.5);
+}
+
 /* Note */
 .note {
   min-width: 235px;

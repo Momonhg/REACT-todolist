@@ -1,11 +1,4 @@
 import React, { useState } from "react";
-import AddIcon from "@material-ui/icons/Add";
-// change the icon to a plus sign
-import Fab from "@material-ui/core/Fab";
-// add animation to the add button
-import Zoom from "@material-ui/core/Zoom";
-// create an expand component need to wrap around a fab so it can expand
-// https://mui.com/material-ui/api/zoom/
 
 function CreateArea(props) {
   const [note, setNote] = useState({
@@ -68,14 +61,9 @@ function CreateArea(props) {
           }
           rows={expanded === true ? "3" : "1"}
         />
-        <Zoom in={expanded}>
-          {/*Since this components will react based on the boolean true/false need to added */}
+        <button style={{visibility: expanded === true ? "visible" :"hidden"}} onClick={submitNote} class="material-symbols-outlined"> add
 
-          <Fab onClick={submitNote}>
-            <AddIcon />
-          </Fab>
-
-        </Zoom>
+        </button>
       </form>
 
     </div>

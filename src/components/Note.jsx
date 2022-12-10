@@ -1,5 +1,4 @@
 import React from "react";
-import DeleteIcon from "@material-ui/icons/Delete";
 // import Timer from "./Timer";
 import Calendar from "./Calendar";
 
@@ -26,8 +25,8 @@ function Note(props) {
       <div className="note-button">     
       {/* eslint-disable-next-line */}
       <button className="complete-button" role="button" onClick={handleClick}>
-        <span> <DeleteIcon /> </span>
-        <span> Completed! </span>
+      <span class="material-symbols-outlined"> check </span>        
+<span> Completed! </span>
       </button>
       </div>
   
